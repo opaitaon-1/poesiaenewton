@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"alpha" ;
+    src: url(AlphaMaleModern.ttf);
+    
+}
+@font-face {
+    font-family:"regular" ;
+    src: url(Sriracha-Regular.ttf);
+}
+:root {
+ --font1 : alpha , verdana;
+ --font2 : regular , cursive;
+
+ }
+
+html , body {
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgray;
+}
+
+
+header {
+background-color: black;
+color: white;
+padding: 10px;
+text-align:right;
+
+
+}
+
+footer , a  {
+color: white;
+text-decoration: none; /* serve para retirar o sublinhado*/
+
+}
+footer a:hover , header a:hover {
+    text-decoration: underline;
+
+}
+
+
+header > h1 {
+font-variant: small-caps;
+text-align: center;
+font-family: var(--font1);
+font-size: 9vw;
+
+}
+
+footer {
+    background-color: black;
+    
+    text-align: center;
+    background-size: 3vw;
+}
+section.imagem > p {
+    
+   display: inline-block; /*o inline block se ajusta a caixa*/
+   
+   background-color: rgba(0, 0, 0, 0.437);
+   border-radius: 10px;
+   
+
+}
+section {
+    font-family: var(--font2);
+    padding :60px 20px 60px 20px ;
+    line-height: 3em; /*espaçamento entre palavras  o vw é largura da tela*/
+    font-size: 3vw;
+    background-attachment: fixed;
+}
+ 
+section.branco {
+    background-color: rgb(255, 254, 254) ;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px , 2px ,0px black;
+    
+}
+section.imagem {
+    box-shadow: inset 6px 5px 13px 0 rgba(0, 0, 0, 0.96);
+    color:white
+}
+
+section#imagem01 {
+    background-image:url(Portrait_of_Sir_Isaac_Newton\,_1689.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+section#imagem02 {
+    background-image:url(8-livros-de-poesia-que-voc--n-o-pode-deixar-de-ler-.jpg) ;
+    background-size: cover;
+}
+
+section#gif {
+    background-image:url(Design\ sem\ nome\ \(4\)\ \(1\).gif) ;
+    background-attachment: local;
+    background-size: 40vw;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}
