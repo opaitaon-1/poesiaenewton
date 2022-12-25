@@ -90,7 +90,7 @@ section.imagem {
 section#imagem01 {
     background-image:url(Portrait_of_Sir_Isaac_Newton\,_1689.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw 100vh;
     background-position-x: center;
     
     
@@ -98,8 +98,7 @@ section#imagem01 {
 
 section#imagem02 {
     background-image:url(8-livros-de-poesia-que-voc--n-o-pode-deixar-de-ler-.jpg) ;
-    background-size: cover;
-    background-position-x: center;
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
     
     
