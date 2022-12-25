@@ -92,8 +92,10 @@ section#imagem01 {
 
 section#imagem02 {
     background-image:url(8-livros-de-poesia-que-voc--n-o-pode-deixar-de-ler-.jpg) ;
-    background-size: cover;
-    background-position:top right ;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+  
 }
 
 section#gif {
@@ -101,6 +103,6 @@ section#gif {
     background-attachment: local;
     background-size: 40vw;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position:center right;
     
 }
