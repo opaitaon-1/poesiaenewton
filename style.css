@@ -40,6 +40,9 @@ footer a:hover , header a:hover {
 
 }
 
+header > p , a {
+    font-size: 2vw;
+}
 
 header > h1 {
 font-variant: small-caps;
@@ -88,14 +91,18 @@ section#imagem01 {
     background-image:url(Portrait_of_Sir_Isaac_Newton\,_1689.jpg);
     background-repeat: no-repeat;
     background-size: 100vw;
+    background-size: 100vh;
+    background-size: cover;
     
 }
 
 section#imagem02 {
     background-image:url(8-livros-de-poesia-que-voc--n-o-pode-deixar-de-ler-.jpg) ;
     background-size: 120vw;
+    background-size: 120vh;
     background-repeat: no-repeat;
     background-position: center top;
+    background-size: cover;
   
 }
 
